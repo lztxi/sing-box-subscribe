@@ -27,8 +27,12 @@
     ],
     "rules": [
       {
-        "rule_set": ["HTTPDNS", "httpdns-Block"],
+        "rule_set": "httpdns-Block",
         "server": "block"
+      },
+      {
+          "rule_set": "HTTPDNS",
+          "server": "block"
       },
       {
         "outbound": "any",
