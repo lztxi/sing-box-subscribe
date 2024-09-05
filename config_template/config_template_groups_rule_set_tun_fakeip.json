@@ -69,7 +69,8 @@
           {
             "rule_set": "geoip-cn"
           }
-        ]
+        ],
+        "server": "NameDns"
       },
       {
         "query_type": [
@@ -390,7 +391,7 @@
         "tag": "httpdns-Block",
         "type": "remote",
         "format": "binary",
-        "url": "https://fastly.jsdelivr.net/gh/lztxi/sing-box-geosite@main/rule/HTTPDNS.Block.srs",
+        "url": "https://fastly.jsdelivr.net/gh/lztxi/sing-box-geosite@main/rule/HTTPDNSBlock.srs",
         "download_detour": "direct"
       },
       {
